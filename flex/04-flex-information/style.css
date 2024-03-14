@@ -1,5 +1,8 @@
 body {
+  margin: 0px;
+  padding: 0px;
   font-family: 'Courier New', Courier, monospace;
+  text-align: center;
 }
 
 img {
@@ -10,6 +13,19 @@ img {
 .title {
   font-size: 36px;
   font-weight: 900;
+  margin-bottom: 32px;
+}
+
+.content-container
+{
+  display: flex;
+  justify-content: center;
+  gap: 52px;
+}
+
+.content
+{
+  max-width: 200px;
 }
 
 /* do not edit this footer */
